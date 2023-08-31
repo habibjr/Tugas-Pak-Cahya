@@ -16,8 +16,8 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
 
         \App\Models\User::factory()->create([
-            'name' => 'Fahmi Aziz',
-            'email' => 'admin@mail.com',
+            'name' => 'Habib FahrurR',
+            'email' => 'habib@mail.com',
             'password' => bcrypt('password'),
             'remember_token' => Str::random(50),
         ]);

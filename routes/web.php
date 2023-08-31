@@ -19,6 +19,10 @@ use Illuminate\Support\Facades\Route;
 //     return view('layouts.app');
 // });
 
+
+// Nama : Muhammad Nur Kholis
+// NIM : 201969040021
+
 Route::get('/', [AuthController::class, 'login'])->name('login');
 Route::post('/postlogin', [AuthController::class, 'postlogin'])->name('postlogin');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
